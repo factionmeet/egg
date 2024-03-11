@@ -2,8 +2,7 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
     "path": "/",
@@ -15,11 +14,12 @@
   {
     "name": null,
     "methods": [
-      "POST"
+      "HEAD",
+      "GET"
     ],
     "paramNames": [],
-    "path": "/nodemcu",
-    "regexp": "/^\\/nodemcu(?:\\/(?=$))?$/",
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

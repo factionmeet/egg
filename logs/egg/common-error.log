@@ -1058,3 +1058,93 @@ name: "ECONNREFUSEDError"
 pid: 23068
 hostname: WIN-3AQI817JGGJ
 
+2024-03-11 14:13:49,923 ERROR 19832 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19832
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 14:14:25,712 ERROR 19832 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 19832
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 15:07:51,015 ERROR 4372 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 4372
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 16:13:53,709 ERROR 13968 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 13968
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 20:27:26,875 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 20:29:03,289 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 21:10:36,703 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 21:10:48,197 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 21:10:48,199 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 21:10:52,766 ERROR 11512 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11512
+hostname: WIN-3AQI817JGGJ
+
