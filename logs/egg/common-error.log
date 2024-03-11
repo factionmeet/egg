@@ -574,3 +574,487 @@ name: "ECONNREFUSEDError"
 pid: 19852
 hostname: WIN-3AQI817JGGJ
 
+2024-03-11 10:38:28,938 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,941 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,945 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,946 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,148 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,150 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,153 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,154 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,501 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,503 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,507 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,509 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,090 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,093 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,095 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,097 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,084 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,087 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,090 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,092 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,775 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,779 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,783 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,785 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,631 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,634 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,637 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,638 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,481 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,484 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,487 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,489 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,709 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,711 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,713 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,714 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,686 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,689 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,693 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,697 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,428 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,432 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,437 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,440 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+

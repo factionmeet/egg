@@ -10,3 +10,140 @@ hostname: WIN-3AQI817JGGJ
 2024-03-11 09:32:24,653 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1970324837454470,"size":0,"blocks":0,"atimeMs":1710120744649.8313,"mtimeMs":1709865260429.6328,"ctimeMs":1709865260429.6328,"birthtimeMs":1709864823110.0854,"atime":"2024-03-11T01:32:24.650Z","mtime":"2024-03-08T02:34:20.430Z","ctime":"2024-03-08T02:34:20.430Z","birthtime":"2024-03-08T02:27:03.110Z"},"remove":false,"isDirectory":true,"isFile":false}
 2024-03-11 09:32:24,659 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\controller","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":3377699721011393,"size":0,"blocks":0,"atimeMs":1710120744652.3665,"mtimeMs":1710078807607.5945,"ctimeMs":1710078807607.5945,"birthtimeMs":1709865260429.6328,"atime":"2024-03-11T01:32:24.652Z","mtime":"2024-03-10T13:53:27.608Z","ctime":"2024-03-10T13:53:27.608Z","birthtime":"2024-03-08T02:34:20.430Z"},"remove":false,"isDirectory":true,"isFile":false}
 2024-03-11 09:32:24,659 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\middleware","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":6473924464824072,"size":0,"blocks":0,"atimeMs":1710120744652.3665,"mtimeMs":1709865197877.3906,"ctimeMs":1709865197877.3906,"birthtimeMs":1709864835945.4224,"atime":"2024-03-11T01:32:24.652Z","mtime":"2024-03-08T02:33:17.877Z","ctime":"2024-03-08T02:33:17.877Z","birthtime":"2024-03-08T02:27:15.945Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 10:38:26,207 INFO 10368 [egg-sequelize](4ms) Executed (default): SELECT 1+1 AS result
+2024-03-11 10:38:25,355 INFO 10368 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-03-11 10:38:26,075 INFO 10368 [egg:core] dump config after load, 6ms
+2024-03-11 10:38:26,136 INFO 10368 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\egg\\app","C:\\Users\\Administrator\\Desktop\\egg\\config","C:\\Users\\Administrator\\Desktop\\egg\\mocks","C:\\Users\\Administrator\\Desktop\\egg\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\egg\\app.js"]
+2024-03-11 10:38:26,136 INFO 10368 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\app"
+2024-03-11 10:38:26,137 INFO 10368 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\config"
+2024-03-11 10:38:26,137 INFO 10368 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\mocks"
+2024-03-11 10:38:26,137 INFO 10368 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\mocks_proxy"
+2024-03-11 10:38:26,137 INFO 10368 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\app.js"
+2024-03-11 10:38:26,138 INFO 10368 [egg-watcher:agent] watcher start success
+2024-03-11 10:38:26,421 INFO 10368 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [830ms] - #0 Process Start
+                   ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1330ms] - #1 Application Start
+                   ▇ [28ms] - #2 Load Plugin
+                    ▇ [19ms] - #3 Load Config
+                    ▇ [1ms] - #4 Require(0) config/config.default.js
+                    ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                    ▇ [1ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js
+                    ▇ [0ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                    ▇ [1ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js
+                    ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                    ▇ [1ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                    ▇ [0ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/config/config.default.js
+                    ▇ [1ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js
+                    ▇ [0ms] - #13 Require(9) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js
+                    ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js
+                    ▇ [0ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                    ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                    ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/config/config.default.js
+                    ▇ [1ms] - #18 Require(14) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/config/config.default.js
+                    ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/config/config.default.js
+                    ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js
+                    ▇ [0ms] - #21 Require(17) config/config.default.js
+                    ▇ [0ms] - #22 Require(18) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.local.js
+                    ▇ [0ms] - #23 Require(19) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                    ▇ [1ms] - #24 Require(20) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                    ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.local.js
+                    ▇ [66ms] - #26 Load extend/agent.js
+                    ▇ [2ms] - #27 Require(22) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/agent.js
+                    ▇ [52ms] - #28 Require(23) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app/extend/agent.js
+                     ▇ [4ms] - #29 Require(24) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app/extend/agent.js
+                      ▇ [68ms] - #30 Load extend/context.js
+                      ▇ [17ms] - #31 Require(25) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/context.js
+                      ▇ [3ms] - #32 Require(26) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                      ▇ [1ms] - #33 Require(27) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                      ▇ [34ms] - #34 Require(28) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app/extend/context.js
+                       ▇ [2ms] - #35 Require(29) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                       ▇ [2ms] - #36 Require(30) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/context.js
+                       ▇ [67ms] - #37 Load agent.js
+                       ▇ [1ms] - #38 Require(31) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/agent.js
+                       ▇ [1ms] - #39 Require(32) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/agent.js
+                       ▇ [9ms] - #40 Require(33) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                        ▇ [2ms] - #41 Require(34) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/agent.js
+                        ▇ [47ms] - #42 Require(35) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/agent.js
+                         ▇ [1ms] - #43 Require(36) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/agent.js
+                         ▇ [1ms] - #44 Require(37) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/agent.js
+                         ▇ [1ms] - #45 Require(38) node_modules/.pnpm/egg@3.20.0/node_modules/egg/agent.js
+                         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [781ms] - #46 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [760ms] - #47 Before Start in node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/agent.js:12:9
+                         ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1059ms] - #48 Before Start in node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/agent.js:12:9
+                                         ▇ [20ms] - #49 Load "Symbol(model)" to Application
+                                         ▇▇▇ [141ms] - #50 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-03-11 10:38:26,422 INFO 10368 [egg:core] dump config after ready, 5ms
+2024-03-11 10:40:11,750 INFO 19832 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-03-11 10:40:11,275 INFO 19832 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"agent","localStorage":{"enabled":false}}
+2024-03-11 10:40:11,648 INFO 19832 [egg:core] dump config after load, 5ms
+2024-03-11 10:40:11,702 INFO 19832 [egg-watcher] Start watching: ["C:\\Users\\Administrator\\Desktop\\egg\\app","C:\\Users\\Administrator\\Desktop\\egg\\config","C:\\Users\\Administrator\\Desktop\\egg\\mocks","C:\\Users\\Administrator\\Desktop\\egg\\mocks_proxy","C:\\Users\\Administrator\\Desktop\\egg\\app.js"]
+2024-03-11 10:40:11,702 INFO 19832 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\app"
+2024-03-11 10:40:11,703 INFO 19832 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\config"
+2024-03-11 10:40:11,703 INFO 19832 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\mocks"
+2024-03-11 10:40:11,703 INFO 19832 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\mocks_proxy"
+2024-03-11 10:40:11,703 INFO 19832 [egg-watcher] Start watching: "C:\\Users\\Administrator\\Desktop\\egg\\app.js"
+2024-03-11 10:40:11,704 INFO 19832 [egg-watcher:agent] watcher start success
+2024-03-11 10:40:11,760 INFO 19832 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [866ms] - #0 Process Start
+                            ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [670ms] - #1 Application Start
+                            ▇ [28ms] - #2 Load Plugin
+                             ▇ [23ms] - #3 Load Config
+                             ▇ [1ms] - #4 Require(0) config/config.default.js
+                             ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                             ▇ [1ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js
+                             ▇ [1ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                             ▇ [0ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js
+                             ▇ [1ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                             ▇ [2ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                             ▇ [1ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/config/config.default.js
+                             ▇ [1ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js
+                             ▇ [0ms] - #13 Require(9) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js
+                             ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js
+                             ▇ [1ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                             ▇ [0ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                             ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/config/config.default.js
+                             ▇ [1ms] - #18 Require(14) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/config/config.default.js
+                             ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/config/config.default.js
+                             ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js
+                              ▇ [0ms] - #21 Require(17) config/config.default.js
+                              ▇ [0ms] - #22 Require(18) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.local.js
+                              ▇ [1ms] - #23 Require(19) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                              ▇ [1ms] - #24 Require(20) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                              ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.local.js
+                              ▇ [43ms] - #26 Load extend/agent.js
+                              ▇ [2ms] - #27 Require(22) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/agent.js
+                              ▇ [34ms] - #28 Require(23) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app/extend/agent.js
+                               ▇ [2ms] - #29 Require(24) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app/extend/agent.js
+                               ▇ [37ms] - #30 Load extend/context.js
+                               ▇ [9ms] - #31 Require(25) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/context.js
+                               ▇ [4ms] - #32 Require(26) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                                ▇ [1ms] - #33 Require(27) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                                ▇ [16ms] - #34 Require(28) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app/extend/context.js
+                                ▇ [1ms] - #35 Require(29) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                                ▇ [2ms] - #36 Require(30) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/context.js
+                                ▇ [39ms] - #37 Load agent.js
+                                ▇ [0ms] - #38 Require(31) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/agent.js
+                                ▇ [0ms] - #39 Require(32) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/agent.js
+                                ▇ [3ms] - #40 Require(33) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/agent.js
+                                 ▇ [1ms] - #41 Require(34) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/agent.js
+                                 ▇ [28ms] - #42 Require(35) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/agent.js
+                                  ▇ [0ms] - #43 Require(36) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/agent.js
+                                  ▇ [0ms] - #44 Require(37) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/agent.js
+                                  ▇ [0ms] - #45 Require(38) node_modules/.pnpm/egg@3.20.0/node_modules/egg/agent.js
+                                  ▇▇▇▇▇▇▇▇▇▇▇▇▇ [427ms] - #46 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                  ▇▇▇▇▇▇▇▇▇▇▇▇▇ [402ms] - #47 Before Start in node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/agent.js:12:9
+                                  ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [466ms] - #48 Before Start in node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/agent.js:12:9
+                                             ▇ [15ms] - #49 Load "Symbol(model)" to Application
+                                              ▇▇▇ [111ms] - #50 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/lib/loader.js:39:7
+2024-03-11 10:40:11,760 INFO 19832 [egg:core] dump config after ready, 6ms
+2024-03-11 11:27:28,627 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\controller","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":12947848928691388,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709647641555.1133,"ctimeMs":1709647641555.1133,"birthtimeMs":1709601507799.2393,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-05T14:07:21.555Z","ctime":"2024-03-05T14:07:21.555Z","birthtime":"2024-03-05T01:18:27.799Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,646 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\controller","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":3377699721011393,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1710078807607.5945,"ctimeMs":1710078807607.5945,"birthtimeMs":1709865260429.6328,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-10T13:53:27.608Z","ctime":"2024-03-10T13:53:27.608Z","birthtime":"2024-03-08T02:34:20.430Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,648 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\public\\css","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":11540474045211108,"size":0,"blocks":0,"atimeMs":1710127648595.6255,"mtimeMs":1709601981912.1885,"ctimeMs":1709601981912.1885,"birthtimeMs":1709601981912.1885,"atime":"2024-03-11T03:27:28.596Z","mtime":"2024-03-05T01:26:21.912Z","ctime":"2024-03-05T01:26:21.912Z","birthtime":"2024-03-05T01:26:21.912Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,649 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1970324837454470,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709865260429.6328,"ctimeMs":1709865260429.6328,"birthtimeMs":1709864823110.0854,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-08T02:34:20.430Z","ctime":"2024-03-08T02:34:20.430Z","birthtime":"2024-03-08T02:27:03.110Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,650 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\extend","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":9570149208236558,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709603446062.6233,"ctimeMs":1709603446062.6233,"birthtimeMs":1709602230755.4285,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-05T01:50:46.063Z","ctime":"2024-03-05T01:50:46.063Z","birthtime":"2024-03-05T01:30:30.755Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,652 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\middleware","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":8444249301394186,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709603537755.9856,"ctimeMs":1709603537755.9856,"birthtimeMs":1709603519008.1765,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-05T01:52:17.756Z","ctime":"2024-03-05T01:52:17.756Z","birthtime":"2024-03-05T01:51:59.008Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,652 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\service","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":19421773393051950,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709647875329.3452,"ctimeMs":1709647875329.3452,"birthtimeMs":1709602061548.718,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-05T14:11:15.329Z","ctime":"2024-03-05T14:11:15.329Z","birthtime":"2024-03-05T01:27:41.549Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,653 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\model","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":22517998136950064,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709652576482.3767,"ctimeMs":1709690876871.0876,"birthtimeMs":1709652519057.744,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-05T15:29:36.482Z","ctime":"2024-03-06T02:07:56.871Z","birthtime":"2024-03-05T15:28:39.058Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,655 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\public","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1688849860338138,"size":0,"blocks":0,"atimeMs":1710127648618.0679,"mtimeMs":1709601987603.457,"ctimeMs":1709601987603.457,"birthtimeMs":1709601865044.0173,"atime":"2024-03-11T03:27:28.618Z","mtime":"2024-03-05T01:26:27.603Z","ctime":"2024-03-05T01:26:27.603Z","birthtime":"2024-03-05T01:24:25.044Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,657 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\middleware","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":6473924464824072,"size":0,"blocks":0,"atimeMs":1710127648591.6255,"mtimeMs":1709865197877.3906,"ctimeMs":1709865197877.3906,"birthtimeMs":1709864835945.4224,"atime":"2024-03-11T03:27:28.592Z","mtime":"2024-03-08T02:33:17.877Z","ctime":"2024-03-08T02:33:17.877Z","birthtime":"2024-03-08T02:27:15.945Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 11:27:28,659 INFO 19832 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\public\\js","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1970324837011269,"size":0,"blocks":0,"atimeMs":1710127648595.6255,"mtimeMs":1709601987603.457,"ctimeMs":1709601987603.457,"birthtimeMs":1709601987603.457,"atime":"2024-03-11T03:27:28.596Z","mtime":"2024-03-05T01:26:27.603Z","ctime":"2024-03-05T01:26:27.603Z","birthtime":"2024-03-05T01:26:27.603Z"},"remove":false,"isDirectory":true,"isFile":false}

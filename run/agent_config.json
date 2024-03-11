@@ -187,9 +187,7 @@
           "connectionMiddleware": [
             "connection"
           ],
-          "packetMiddleware": [
-            "packet"
-          ]
+          "packetMiddleware": []
         },
         "/example": {
           "connectionMiddleware": [],

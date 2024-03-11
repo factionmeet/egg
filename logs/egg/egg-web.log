@@ -571,3 +571,673 @@ name: "ECONNREFUSEDError"
 pid: 19852
 hostname: WIN-3AQI817JGGJ
 
+2024-03-11 10:38:27,905 INFO 23068 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"application","localStorage":{"enabled":false}}
+2024-03-11 10:38:27,906 INFO 23068 [egg-multipart] stream mode enable
+2024-03-11 10:38:28,904 INFO 23068 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\egg\app\public
+2024-03-11 10:38:28,906 INFO 23068 [egg-security] use methodnoallow middleware
+2024-03-11 10:38:28,907 INFO 23068 [egg-security] use noopen middleware
+2024-03-11 10:38:28,909 INFO 23068 [egg-security] use nosniff middleware
+2024-03-11 10:38:28,910 INFO 23068 [egg-security] use xssProtection middleware
+2024-03-11 10:38:28,910 INFO 23068 [egg-security] use xframe middleware
+2024-03-11 10:38:28,911 INFO 23068 [egg-security] use dta middleware
+2024-03-11 10:38:28,911 INFO 23068 [egg-security] compose 6 middlewares into one security middleware
+2024-03-11 10:38:28,921 INFO 23068 [egg:core] dump config after load, 5ms
+2024-03-11 10:38:29,000 INFO 23068 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2024-03-11 10:38:28,941 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,943 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,946 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,947 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:28,983 INFO 23068 [egg-watcher:application] watcher start success
+2024-03-11 10:38:29,035 INFO 23068 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [791ms] - #0 Process Start
+               ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1715ms] - #1 Application Start
+               ▇ [33ms] - #2 Load Plugin
+                ▇ [25ms] - #3 Load Config
+                ▇ [1ms] - #4 Require(0) config/config.default.js
+                ▇ [0ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                ▇ [0ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js
+                ▇ [1ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                ▇ [1ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js
+                ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                ▇ [1ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                ▇ [0ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/config/config.default.js
+                ▇ [0ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js
+                ▇ [1ms] - #13 Require(9) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js
+                ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js
+                ▇ [0ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                ▇ [1ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/config/config.default.js
+                ▇ [0ms] - #18 Require(14) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/config/config.default.js
+                ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/config/config.default.js
+                ▇ [1ms] - #20 Require(16) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js
+                ▇ [0ms] - #21 Require(17) config/config.default.js
+                ▇ [0ms] - #22 Require(18) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.local.js
+                ▇ [0ms] - #23 Require(19) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                 ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                 ▇ [1ms] - #25 Require(21) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.local.js
+                 ▇ [78ms] - #26 Load extend/application.js
+                 ▇ [2ms] - #27 Require(22) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/app/extend/application.js
+                 ▇ [1ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/application.js
+                 ▇ [2ms] - #29 Require(24) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/application.js
+                 ▇ [3ms] - #30 Require(25) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app/extend/application.js
+                 ▇ [3ms] - #31 Require(26) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app/extend/application.js
+                 ▇ [3ms] - #32 Require(27) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/application.js
+                 ▇ [56ms] - #33 Require(28) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/app/extend/application.js
+                  ▇ [5ms] - #34 Load extend/request.js
+                  ▇ [2ms] - #35 Require(29) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/request.js
+                  ▇ [11ms] - #36 Load extend/response.js
+                  ▇ [6ms] - #37 Require(30) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/response.js
+                  ▇ [75ms] - #38 Load extend/context.js
+                  ▇ [21ms] - #39 Require(31) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/context.js
+                   ▇ [4ms] - #40 Require(32) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                   ▇ [1ms] - #41 Require(33) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                   ▇ [31ms] - #42 Require(34) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app/extend/context.js
+                    ▇ [2ms] - #43 Require(35) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                    ▇ [3ms] - #44 Require(36) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/context.js
+                    ▇ [60ms] - #45 Load extend/helper.js
+                    ▇ [37ms] - #46 Require(37) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/helper.js
+                     ▇ [2ms] - #47 Require(38) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/helper.js
+                     ▇ [11ms] - #48 Require(39) app/extend/helper.js
+                     ▇▇▇▇▇▇ [308ms] - #49 Load app.js
+                     ▇ [1ms] - #50 Require(40) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/app.js
+                     ▇ [4ms] - #51 Require(41) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app.js
+                     ▇ [25ms] - #52 Require(42) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/app.js
+                      ▇ [18ms] - #53 Require(43) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app.js
+                      ▇ [25ms] - #54 Require(44) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/app.js
+                       ▇ [1ms] - #55 Require(45) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app.js
+                       ▇ [20ms] - #56 Require(46) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app.js
+                       ▇ [1ms] - #57 Require(47) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/app.js
+                       ▇ [1ms] - #58 Require(48) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app.js
+                       ▇ [0ms] - #59 Require(49) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/app.js
+                       ▇ [1ms] - #60 Require(50) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/app.js
+                       ▇▇▇ [192ms] - #61 Require(51) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/app.js
+                           ▇ [7ms] - #62 Require(52) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/app.js
+                            ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1066ms] - #63 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                           ▇ [10ms] - #64 Load "Symbol(model)" to Application
+                                            ▇▇▇▇▇ [262ms] - #65 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/lib/loader.js:39:7
+                                            ▇▇▇ [159ms] - #66 Load Controller
+                                            ▇▇▇ [159ms] - #67 Load "controller" to Application
+                                            ▇▇▇ [170ms] - #68 Before Start in node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/lib/io.js:26:7
+                                            ▇ [6ms] - #69 Load Service
+                                            ▇ [6ms] - #70 Load "service" to Context
+                                            ▇▇ [141ms] - #71 Load Middleware
+                                            ▇▇ [132ms] - #72 Load "middlewares" to Application
+                                               ▇ [3ms] - #73 Load Controller
+                                               ▇ [3ms] - #74 Load "controller" to Application
+                                               ▇ [2ms] - #75 Load Router
+                                               ▇ [0ms] - #76 Require(53) app/router.js
+                                               ▇ [15ms] - #77 Before Start in node_modules/.pnpm/egg-core@5.4.1/node_modules/egg-core/lib/egg.js:306:10
+2024-03-11 10:38:29,035 INFO 23068 [egg:core] dump config after ready, 7ms
+2024-03-11 10:38:29,150 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,152 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,154 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,156 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,503 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,506 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,509 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:29,510 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,093 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,095 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,097 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:30,100 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,086 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,089 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,092 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:31,093 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,779 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,782 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,785 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:32,786 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,634 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,636 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,638 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:35,640 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,483 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,486 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,489 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:40,491 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,711 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,712 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,714 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:38:48,716 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,689 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,692 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,697 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:02,701 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,432 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,435 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,440 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:39:26,442 ERROR 23068 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 23068
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 10:40:13,699 INFO 27428 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2024-03-11 10:40:12,985 INFO 27428 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\Administrator\\Desktop\\egg\\logs\\egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"enableFastContextLogger":false,"type":"application","localStorage":{"enabled":false}}
+2024-03-11 10:40:12,985 INFO 27428 [egg-multipart] stream mode enable
+2024-03-11 10:40:13,612 INFO 27428 [egg-static] starting static serve /public/ -> C:\Users\Administrator\Desktop\egg\app\public
+2024-03-11 10:40:13,614 INFO 27428 [egg-security] use methodnoallow middleware
+2024-03-11 10:40:13,616 INFO 27428 [egg-security] use noopen middleware
+2024-03-11 10:40:13,617 INFO 27428 [egg-security] use nosniff middleware
+2024-03-11 10:40:13,617 INFO 27428 [egg-security] use xssProtection middleware
+2024-03-11 10:40:13,617 INFO 27428 [egg-security] use xframe middleware
+2024-03-11 10:40:13,618 INFO 27428 [egg-security] use dta middleware
+2024-03-11 10:40:13,618 INFO 27428 [egg-security] compose 6 middlewares into one security middleware
+2024-03-11 10:40:13,632 INFO 27428 [egg:core] dump config after load, 7ms
+2024-03-11 10:40:13,683 INFO 27428 [egg-watcher:application] watcher start success
+2024-03-11 10:40:13,728 INFO 27428 egg start timeline:
+▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [828ms] - #0 Process Start
+                     ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [1038ms] - #1 Application Start
+                      ▇ [35ms] - #2 Load Plugin
+                       ▇ [20ms] - #3 Load Config
+                       ▇ [0ms] - #4 Require(0) config/config.default.js
+                       ▇ [1ms] - #5 Require(1) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/config/config.default.js
+                       ▇ [1ms] - #6 Require(2) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.default.js
+                       ▇ [0ms] - #7 Require(3) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/config/config.default.js
+                       ▇ [1ms] - #8 Require(4) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/config/config.default.js
+                       ▇ [0ms] - #9 Require(5) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/config/config.default.js
+                       ▇ [0ms] - #10 Require(6) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.default.js
+                       ▇ [1ms] - #11 Require(7) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/config/config.default.js
+                       ▇ [1ms] - #12 Require(8) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/config/config.default.js
+                       ▇ [0ms] - #13 Require(9) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/config/config.default.js
+                       ▇ [0ms] - #14 Require(10) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/config/config.default.js
+                       ▇ [1ms] - #15 Require(11) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/config/config.default.js
+                       ▇ [1ms] - #16 Require(12) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.default.js
+                       ▇ [0ms] - #17 Require(13) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/config/config.default.js
+                       ▇ [0ms] - #18 Require(14) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/config/config.default.js
+                       ▇ [0ms] - #19 Require(15) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/config/config.default.js
+                       ▇ [0ms] - #20 Require(16) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.default.js
+                       ▇ [0ms] - #21 Require(17) config/config.default.js
+                       ▇ [1ms] - #22 Require(18) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/config/config.local.js
+                       ▇ [1ms] - #23 Require(19) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/config/config.local.js
+                       ▇ [0ms] - #24 Require(20) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/config/config.local.js
+                       ▇ [0ms] - #25 Require(21) node_modules/.pnpm/egg@3.20.0/node_modules/egg/config/config.local.js
+                       ▇ [59ms] - #26 Load extend/application.js
+                       ▇ [0ms] - #27 Require(22) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/app/extend/application.js
+                       ▇ [0ms] - #28 Require(23) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/application.js
+                       ▇ [2ms] - #29 Require(24) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/application.js
+                       ▇ [3ms] - #30 Require(25) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app/extend/application.js
+                       ▇ [3ms] - #31 Require(26) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app/extend/application.js
+                        ▇ [2ms] - #32 Require(27) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/application.js
+                        ▇ [44ms] - #33 Require(28) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/app/extend/application.js
+                         ▇ [5ms] - #34 Load extend/request.js
+                         ▇ [1ms] - #35 Require(29) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/request.js
+                         ▇ [10ms] - #36 Load extend/response.js
+                         ▇ [5ms] - #37 Require(30) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/response.js
+                         ▇ [44ms] - #38 Load extend/context.js
+                         ▇ [17ms] - #39 Require(31) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/context.js
+                          ▇ [2ms] - #40 Require(32) node_modules/.pnpm/egg-jsonp@2.0.0/node_modules/egg-jsonp/app/extend/context.js
+                          ▇ [0ms] - #41 Require(33) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app/extend/context.js
+                          ▇ [15ms] - #42 Require(34) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app/extend/context.js
+                          ▇ [2ms] - #43 Require(35) node_modules/.pnpm/egg-view@2.1.4/node_modules/egg-view/app/extend/context.js
+                          ▇ [2ms] - #44 Require(36) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/context.js
+                          ▇ [29ms] - #45 Load extend/helper.js
+                          ▇ [17ms] - #46 Require(37) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app/extend/helper.js
+                           ▇ [1ms] - #47 Require(38) node_modules/.pnpm/egg@3.20.0/node_modules/egg/app/extend/helper.js
+                           ▇ [8ms] - #48 Require(39) app/extend/helper.js
+                           ▇▇ [99ms] - #49 Load app.js
+                           ▇ [0ms] - #50 Require(40) node_modules/.pnpm/egg-session@3.3.0/node_modules/egg-session/app.js
+                           ▇ [2ms] - #51 Require(41) node_modules/.pnpm/egg-security@3.2.0/node_modules/egg-security/app.js
+                           ▇ [10ms] - #52 Require(42) node_modules/.pnpm/egg-onerror@2.2.0/node_modules/egg-onerror/app.js
+                           ▇ [10ms] - #53 Require(43) node_modules/.pnpm/egg-i18n@2.1.1/node_modules/egg-i18n/app.js
+                            ▇ [4ms] - #54 Require(44) node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/app.js
+                            ▇ [1ms] - #55 Require(45) node_modules/.pnpm/egg-schedule@4.0.0/node_modules/egg-schedule/app.js
+                            ▇ [1ms] - #56 Require(46) node_modules/.pnpm/egg-multipart@3.3.0/node_modules/egg-multipart/app.js
+                            ▇ [1ms] - #57 Require(47) node_modules/.pnpm/egg-development@2.7.0/node_modules/egg-development/app.js
+                            ▇ [0ms] - #58 Require(48) node_modules/.pnpm/egg-logrotator@3.1.0/node_modules/egg-logrotator/app.js
+                            ▇ [0ms] - #59 Require(49) node_modules/.pnpm/egg-static@2.3.1/node_modules/egg-static/app.js
+                            ▇ [1ms] - #60 Require(50) node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/app.js
+                            ▇ [64ms] - #61 Require(51) node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/app.js
+                              ▇ [1ms] - #62 Require(52) node_modules/.pnpm/egg-cors@3.0.0/node_modules/egg-cors/app.js
+                              ▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇ [692ms] - #63 Before Start in node_modules/.pnpm/egg-watcher@3.1.1/node_modules/egg-watcher/lib/init.js:15:14
+                                           ▇ [9ms] - #64 Load "Symbol(model)" to Application
+                                           ▇▇▇▇▇ [208ms] - #65 Before Start in node_modules/.pnpm/egg-sequelize@6.0.0_mysql2@3.9.2/node_modules/egg-sequelize/lib/loader.js:39:7
+                                            ▇▇ [110ms] - #66 Load Controller
+                                            ▇▇ [110ms] - #67 Load "controller" to Application
+                                            ▇▇▇ [128ms] - #68 Before Start in node_modules/.pnpm/egg-socket.io@4.1.6/node_modules/egg-socket.io/lib/io.js:26:7
+                                            ▇ [6ms] - #69 Load Service
+                                            ▇ [6ms] - #70 Load "service" to Context
+                                            ▇▇ [92ms] - #71 Load Middleware
+                                            ▇▇ [84ms] - #72 Load "middlewares" to Application
+                                               ▇ [5ms] - #73 Load Controller
+                                               ▇ [5ms] - #74 Load "controller" to Application
+                                               ▇ [2ms] - #75 Load Router
+                                               ▇ [0ms] - #76 Require(53) app/router.js
+                                               ▇ [21ms] - #77 Before Start in node_modules/.pnpm/egg-core@5.4.1/node_modules/egg-core/lib/egg.js:306:10
+2024-03-11 10:40:13,728 INFO 27428 [egg:core] dump config after ready, 9ms
