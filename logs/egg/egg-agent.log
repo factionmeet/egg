@@ -1,0 +1,12 @@
+2024-03-11 00:00:01,033 INFO 14320 [egg-logrotator] agent logger reload: got log-reload message
+2024-03-11 08:53:45,578 ERROR 14320 nodejs.ClusterClientNoResponseError: client no response in 27122345ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\cluster-client@3.6.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 14320
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:32:24,653 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":1970324837454470,"size":0,"blocks":0,"atimeMs":1710120744649.8313,"mtimeMs":1709865260429.6328,"ctimeMs":1709865260429.6328,"birthtimeMs":1709864823110.0854,"atime":"2024-03-11T01:32:24.650Z","mtime":"2024-03-08T02:34:20.430Z","ctime":"2024-03-08T02:34:20.430Z","birthtime":"2024-03-08T02:27:03.110Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 09:32:24,659 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\controller","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":3377699721011393,"size":0,"blocks":0,"atimeMs":1710120744652.3665,"mtimeMs":1710078807607.5945,"ctimeMs":1710078807607.5945,"birthtimeMs":1709865260429.6328,"atime":"2024-03-11T01:32:24.652Z","mtime":"2024-03-10T13:53:27.608Z","ctime":"2024-03-10T13:53:27.608Z","birthtime":"2024-03-08T02:34:20.430Z"},"remove":false,"isDirectory":true,"isFile":false}
+2024-03-11 09:32:24,659 INFO 14320 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\app\\io\\middleware","stat":{"dev":3456159965,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":6473924464824072,"size":0,"blocks":0,"atimeMs":1710120744652.3665,"mtimeMs":1709865197877.3906,"ctimeMs":1709865197877.3906,"birthtimeMs":1709864835945.4224,"atime":"2024-03-11T01:32:24.652Z","mtime":"2024-03-08T02:33:17.877Z","ctime":"2024-03-08T02:33:17.877Z","birthtime":"2024-03-08T02:27:15.945Z"},"remove":false,"isDirectory":true,"isFile":false}

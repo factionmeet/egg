@@ -1,0 +1,576 @@
+2024-03-11 08:53:45,320 ERROR 14320 nodejs.ClusterClientNoResponseError: client no response in 27122345ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\cluster-client@3.6.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 14320
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:31,816 ERROR 19852 nodejs.ECONNRESETError: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:31,819 ERROR 19852 nodejs.ECONNRESETError: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:31,824 ERROR 19852 nodejs.ECONNRESETError: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:31,826 ERROR 19852 nodejs.ECONNRESETError: Redis connection to 127.0.0.1:6379 failed - read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "ECONNRESETError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,027 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,029 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,034 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,036 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,382 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,384 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,387 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,390 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,973 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,974 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,976 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:32,977 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:33,972 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:33,973 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:33,977 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:33,978 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:35,650 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:35,652 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:35,663 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:35,665 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:38,504 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:38,505 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:38,509 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:38,512 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:43,344 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:43,347 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:43,353 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:43,357 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:51,571 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:51,575 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:51,582 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:30:51,586 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:05,551 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:05,554 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:05,557 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:05,559 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:29,294 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:29,297 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:29,304 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:31:29,307 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:32:09,645 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:32:09,647 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:32:09,660 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+
+2024-03-11 09:32:09,662 ERROR 19852 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 19852
+hostname: WIN-3AQI817JGGJ
+

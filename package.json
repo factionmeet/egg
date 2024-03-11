@@ -1,0 +1,25 @@
+{
+  "name": "egg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev --sticky",
+    "debug": "egg-bin debug --sticky"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "egg": "^3.20.0",
+    "egg-cors": "^3.0.0",
+    "egg-sequelize": "^6.0.0",
+    "egg-socket.io": "^4.1.6",
+    "moment": "^2.30.1",
+    "mysql2": "^3.9.2"
+  },
+  "devDependencies": {
+    "egg-bin": "^6.8.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}

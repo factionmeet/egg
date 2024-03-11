@@ -1,0 +1,1243 @@
+2024-03-05 09:47:57,535 ERROR 3648 [-/127.0.0.1/-/7ms GET /news] nodejs.TypeError: Cannot read properties of undefined (reading 'list')
+    at NewsController.List (C:\Users\Administrator\Desktop\egg\app\controller\news.js:7:43)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 3648
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 10:06:44,582 ERROR 11280 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 11280
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 10:11:06,170 ERROR 4416 [-/127.0.0.1/-/8ms GET /news] nodejs.TypeError: Cannot read properties of undefined (reading 'ua')
+    at robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:6:31)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:191:33)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:19)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+
+pid: 4416
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:35,792 ERROR 20548 [-/172.20.10.7/-/17ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 20548
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:36,875 ERROR 20548 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 20548
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:37,944 ERROR 20548 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 20548
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:39,044 ERROR 20548 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 20548
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:40,131 ERROR 6308 [-/172.20.10.7/-/13ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:41,223 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:42,285 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:44,492 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:45,607 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:46,669 ERROR 6308 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:47,721 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:48,782 ERROR 6308 [-/172.20.10.7/-/4ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:49,842 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:50,897 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:51,980 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:53,032 ERROR 6308 [-/172.20.10.7/-/0ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:54,096 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:55,148 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:56,213 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:57,283 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:58,363 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:34:59,431 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:35:00,515 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:35:01,631 ERROR 6308 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:35:02,696 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:35:03,740 ERROR 6308 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:35:04,793 ERROR 6308 [-/172.20.10.7/-/0ms POST /nodemcu] nodejs.TypeError: Assignment to constant variable.
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:7:17)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 6308
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:01,480 ERROR 2560 [-/172.20.10.7/-/30ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:02,579 ERROR 2560 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:03,632 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:04,695 ERROR 2560 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:05,755 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:06,828 ERROR 2560 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:07,878 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:10,050 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:11,129 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:12,260 ERROR 2560 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:13,328 ERROR 2560 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:14,393 ERROR 2560 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:47:15,446 ERROR 2560 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'submitData')
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:58)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:36:12
+
+pid: 2560
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:48:28,652 ERROR 19716 [-/172.20.10.7/-/22ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'module')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:27)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 19716
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:48:29,735 ERROR 19716 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'module')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:27)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 19716
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:48:30,790 ERROR 19716 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'module')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:27)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 19716
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:50:02,036 ERROR 14180 [-/172.20.10.7/-/15ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'model')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:27)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 14180
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:50:03,113 ERROR 14180 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'model')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:27)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 14180
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:52:49,269 ERROR 21556 [-/172.20.10.7/-/16ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'model')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:11:39)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 21556
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:52:50,353 ERROR 21556 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'model')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:11:39)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 21556
+hostname: WIN-3AQI817JGGJ
+
+2024-03-05 23:57:49,705 ERROR 14264 [-/172.20.10.7/-/17ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'NodeMcu')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:11:45)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 14264
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 00:02:34,536 ERROR 20020 [-/172.20.10.7/-/17ms POST /nodemcu] nodejs.ReferenceError: ctx is not defined
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 20020
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 00:02:35,626 ERROR 20020 [-/172.20.10.7/-/4ms POST /nodemcu] nodejs.ReferenceError: ctx is not defined
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 20020
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 00:02:36,686 ERROR 20020 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.ReferenceError: ctx is not defined
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 20020
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:31:42,060 ERROR 4296 [-/172.20.10.7/-/18ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 4296
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:31:43,128 ERROR 4296 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 4296
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:31:44,194 ERROR 4296 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 4296
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:31:45,241 ERROR 4296 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 4296
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:58:59,902 ERROR 7508 [-/172.20.10.7/-/18ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 7508
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:59:00,971 ERROR 7508 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 7508
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:59:02,020 ERROR 7508 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 7508
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 08:59:03,067 ERROR 7508 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: NodeMcu.create is not a function
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:31)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 7508
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:07,061 ERROR 3756 [-/172.20.10.7/-/17ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:08,130 ERROR 3756 [-/172.20.10.7/-/3ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:09,186 ERROR 3756 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:10,242 ERROR 3756 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:11,285 ERROR 3756 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:12,321 ERROR 3756 [-/172.20.10.7/-/1ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:36:13,372 ERROR 3756 [-/172.20.10.7/-/2ms POST /nodemcu] nodejs.TypeError: Cannot read properties of undefined (reading 'create')
+    at NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:41)
+    at NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:51)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-core@5.4.1\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\@eggjs+router@2.0.1\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@3.2.1\node_modules\koa-compose\index.js:44:32)
+
+pid: 3756
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:29,532 ERROR 2936 [-/172.20.10.7/-/27ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.20","2024-03-06 02:43:29","2024-03-06 02:43:29"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.20","2024-03-06 02:43:29","2024-03-06 02:43:29"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.20","2024-03-06 02:43:29","2024-03-06 02:43:29"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:30,606 ERROR 2936 [-/172.20.10.7/-/5ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.20","2024-03-06 02:43:30","2024-03-06 02:43:30"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.20","2024-03-06 02:43:30","2024-03-06 02:43:30"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.20","2024-03-06 02:43:30","2024-03-06 02:43:30"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:31,716 ERROR 2936 [-/172.20.10.7/-/11ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:31","2024-03-06 02:43:31"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:31","2024-03-06 02:43:31"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.30","2024-03-06 02:43:31","2024-03-06 02:43:31"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:32,770 ERROR 2936 [-/172.20.10.7/-/6ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:32","2024-03-06 02:43:32"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:32","2024-03-06 02:43:32"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.30","2024-03-06 02:43:32","2024-03-06 02:43:32"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:33,850 ERROR 2936 [-/172.20.10.7/-/4ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:33","2024-03-06 02:43:33"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:33","2024-03-06 02:43:33"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.30","2024-03-06 02:43:33","2024-03-06 02:43:33"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:34,910 ERROR 2936 [-/172.20.10.7/-/7ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:34","2024-03-06 02:43:34"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.30","2024-03-06 02:43:34","2024-03-06 02:43:34"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.30","2024-03-06 02:43:34","2024-03-06 02:43:34"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:35,964 ERROR 2936 [-/172.20.10.7/-/4ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:35","2024-03-06 02:43:35"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:35","2024-03-06 02:43:35"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.40","2024-03-06 02:43:35","2024-03-06 02:43:35"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:37,024 ERROR 2936 [-/172.20.10.7/-/6ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:37","2024-03-06 02:43:37"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:37","2024-03-06 02:43:37"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.40","2024-03-06 02:43:37","2024-03-06 02:43:37"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:38,081 ERROR 2936 [-/172.20.10.7/-/7ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:38","2024-03-06 02:43:38"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:38","2024-03-06 02:43:38"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.40","2024-03-06 02:43:38","2024-03-06 02:43:38"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-06 10:43:39,129 ERROR 2936 [-/172.20.10.7/-/5ms POST /nodemcu] nodejs.SequelizeDatabaseError: Table 'nodemcu.tests' doesn't exist
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:6:17)
+    at async NodeMcuController.index (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:39","2024-03-06 02:43:39"]}
+original: {"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlState":"42S02","sqlMessage":"Table 'nodemcu.tests' doesn't exist","sql":"INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["15.50","64.40","2024-03-06 02:43:39","2024-03-06 02:43:39"]}
+sql: "INSERT INTO `tests` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["15.50","64.40","2024-03-06 02:43:39","2024-03-06 02:43:39"]
+pid: 2936
+hostname: WIN-3AQI817JGGJ
+
+2024-03-08 16:28:24,404 ERROR 18752 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 18752
+hostname: WIN-3AQI817JGGJ
+
+2024-03-08 18:26:27,556 ERROR 8992 nodejs.ReferenceError: server is not defined
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:8:11
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 8992
+hostname: WIN-3AQI817JGGJ
+
