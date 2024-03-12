@@ -11,6 +11,9 @@ dependencies:
   egg-cors:
     specifier: ^3.0.0
     version: 3.0.0
+  egg-onerror:
+    specifier: ^2.2.0
+    version: 2.2.0
   egg-sequelize:
     specifier: ^6.0.0
     version: 6.0.0(mysql2@3.9.2)

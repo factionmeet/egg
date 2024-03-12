@@ -215,6 +215,7 @@
     "dependencies": {
       "egg": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",
+      "egg-onerror": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",
       "egg-sequelize": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",
       "egg-socket.io": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",
       "moment": "C:\\Users\\Administrator\\Desktop\\egg\\node_modules\\.pnpm\\egg@3.20.0\\node_modules\\egg\\config\\config.default.js",

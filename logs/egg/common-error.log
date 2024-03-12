@@ -1148,3 +1148,943 @@ name: "unhandledExceptionError"
 pid: 11512
 hostname: WIN-3AQI817JGGJ
 
+2024-03-12 11:00:25,241 ERROR 19844 [-/127.0.0.1/-/71ms POST /] nodejs.SequelizeDatabaseError: Data truncated for column 'temperature' at row 1
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at async NodeMcuController.infoCollection (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:00:25","2024-03-12 03:00:25"]}
+original: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:00:25","2024-03-12 03:00:25"]}
+sql: "INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["NaN","NaN","2024-03-12 03:00:25","2024-03-12 03:00:25"]
+headers: {"Access-Control-Allow-Origin":"","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 19844
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:01:57,007 ERROR 20180 [-/127.0.0.1/-/32ms POST /] nodejs.SequelizeDatabaseError: Data truncated for column 'temperature' at row 1
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at async NodeMcuController.infoCollection (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:01:56","2024-03-12 03:01:56"]}
+original: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:01:56","2024-03-12 03:01:56"]}
+sql: "INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["NaN","NaN","2024-03-12 03:01:56","2024-03-12 03:01:56"]
+headers: {"Access-Control-Allow-Origin":"","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 20180
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,188 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,191 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,195 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,198 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,408 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,414 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,425 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,427 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,774 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,774 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,775 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:29,777 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:30,367 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:30,368 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:30,370 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:30,372 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:31,365 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:31,367 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:31,368 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:02:31,369 ERROR 11808 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 11808
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:03:20,373 ERROR 18516 [-/127.0.0.1/-/49ms POST /] nodejs.SequelizeDatabaseError: Data truncated for column 'temperature' at row 1
+    at Query.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\mysql\query.js:52:25)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\sequelize.js:315:28
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MySQLQueryInterface.insert (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\dialects\abstract\query-interface.js:308:21)
+    at async model.save (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:2490:35)
+    at async test.create (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\sequelize@6.37.1_mysql2@3.9.2\node_modules\sequelize\lib\model.js:1362:12)
+    at async NodeMcuService.submitData (C:\Users\Administrator\Desktop\egg\app\service\nodemcu.js:7:17)
+    at async NodeMcuController.infoCollection (C:\Users\Administrator\Desktop\egg\app\controller\nodemcu.js:9:20)
+    at async robotMiddleware (C:\Users\Administrator\Desktop\egg\app\middleware\robot.js:11:13)
+    at async C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-development@2.7.0\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeDatabaseError"
+parent: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:03:20","2024-03-12 03:03:20"]}
+original: {"code":"WARN_DATA_TRUNCATED","errno":1265,"sqlState":"01000","sqlMessage":"Data truncated for column 'temperature' at row 1","sql":"INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);","parameters":["NaN","NaN","2024-03-12 03:03:20","2024-03-12 03:03:20"]}
+sql: "INSERT INTO `test` (`id`,`temperature`,`humidity`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?);"
+parameters: ["NaN","NaN","2024-03-12 03:03:20","2024-03-12 03:03:20"]
+headers: {"Access-Control-Allow-Origin":"","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 18516
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:03,716 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:04,688 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:04,694 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:04,699 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:19,695 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:19,700 ERROR 20004 nodejs.TypeError: Cannot read properties of undefined (reading 'io')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:29
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 20004
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,714 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,721 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,725 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,730 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,735 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:24,741 ERROR 22340 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 22340
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,732 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,740 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,744 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,751 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,755 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:46,759 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:47,689 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 11:13:47,692 ERROR 16120 nodejs.TypeError: Cannot read properties of undefined (reading 'service')
+    at C:\Users\Administrator\Desktop\egg\app\io\middleware\connection.js:7:39
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-session@6.4.0\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:34:12
+    at module.exports (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\connectionMiddlewareInit.js:14:3)
+    at Array.<anonymous> (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\egg-socket.io@4.1.6\node_modules\egg-socket.io\lib\io.js:121:7)
+    at run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:124:11)
+    at Namespace.run (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:136:3)
+    at Namespace.add (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\socket.io@2.5.0\node_modules\socket.io\lib\namespace.js:164:8)
+
+pid: 16120
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 13:29:58,542 ERROR 21900 nodejs.ClusterClientNoResponseError: client no response in 2849936ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\Administrator\Desktop\egg\node_modules\.pnpm\cluster-client@3.6.0\node_modules\cluster-client\lib\leader.js:79:25)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+name: "ClusterClientNoResponseError"
+pid: 21900
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,145 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,149 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,153 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,159 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,361 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,362 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,366 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:34,368 ERROR 8620 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 8620
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,623 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,625 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,629 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,632 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,844 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,845 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,848 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:36,850 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,206 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,210 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,214 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,216 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,803 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,807 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,811 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:37,814 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:38,808 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:38,813 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:38,817 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:38,820 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:40,489 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:40,491 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:40,495 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
+2024-03-12 21:25:40,496 ERROR 7524 nodejs.ECONNREFUSEDError: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED 127.0.0.1:6379
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1555:16)
+errno: -4078
+code: "ECONNREFUSED"
+syscall: "connect"
+address: "127.0.0.1"
+port: 6379
+name: "ECONNREFUSEDError"
+pid: 7524
+hostname: WIN-3AQI817JGGJ
+
