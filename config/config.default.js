@@ -43,12 +43,12 @@ exports.io = {
             packetMiddleware: [],
         }
     },
-    redis: {
+    /* redis: {
         host: "127.0.0.1" ,
         port: 6379,
         auth_pass: "0510",
         db: 0,
-    },
+    }, */
 };
 // 配置允许跨域
 exports.cors = {

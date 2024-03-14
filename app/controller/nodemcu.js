@@ -7,9 +7,11 @@ class NodeMcuController extends Controller {
     temperature = parseFloat(temperature).toFixed(2);
     humidity = parseFloat(humidity).toFixed(2);
     const result = await this.ctx.service.nodemcu.submitData(temperature, humidity);
-    console.log('这是发送开始');
+    /* console.log('这是发送开始');
+    const res = await this.ctx.service.nodemcu.getLastData(); */
     const io = this.app.io.of('/');
     io.emit('send', result);
+    console.log(result)
     console.log('这是发送完成');
     // this.ctx.socket.emit('send', result);
     this.ctx.body = result;

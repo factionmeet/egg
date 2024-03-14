@@ -83,12 +83,6 @@
         "connectionMiddleware": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js",
         "packetMiddleware": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js"
       }
-    },
-    "redis": {
-      "host": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js",
-      "port": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js",
-      "auth_pass": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js",
-      "db": "C:\\Users\\Administrator\\Desktop\\egg\\config\\config.default.js"
     }
   },
   "cors": {

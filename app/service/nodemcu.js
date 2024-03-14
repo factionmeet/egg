@@ -17,6 +17,24 @@ class NodeMcuService extends Service {
     })
     return lastData.dataValues;
   }
+  async getLastThirtyData() {
+    const app = this.app;
+    const lastThirtyData = await app.model.Nodemcu.findAll({
+      order: [['id', 'DESC']],
+      limit: 50
+    })
+    //console.log(lastThirtyData);
+    return lastThirtyData;
+  }
+  async getLastFifTeenData() {
+    const app = this.app;
+    const lastThirtyData = await app.model.Nodemcu.findAll({
+      order: [['id', 'DESC']],
+      limit: 50
+    })
+    //console.log(lastThirtyData);
+    return lastThirtyData;
+  }
 }
 
 module.exports = NodeMcuService;

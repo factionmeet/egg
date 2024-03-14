@@ -18,6 +18,9 @@ class Test extends Controller {
     //this.ctx.socket.emit('res', '我发送了实时数据');
     const result = await this.ctx.service.nodemcu.getLastData();
     this.ctx.socket.emit('res', JSON.stringify(result));
+    const thyData = await this.ctx.service.nodemcu.getLastThirtyData();
+    //console.log(thyData);
+    this.ctx.socket.emit('thirtyData', thyData);
   }
   async disconnect() {
     const message = this.ctx.args[0];
